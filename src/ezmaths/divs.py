@@ -11,9 +11,14 @@ def divs(num: int, include_borders: Optional[bool] = True) -> list[int]:
     Returns:
         List of integers that are divisors of the given number.
     """
-    if include_borders or include_borders == None:
-        divisors = [i for i in range(1, num // 2 + 1) if num % i == 0]
-        divisors.append(num)
+    if num == 0:
+        return [0]
+    elif include_borders or include_borders == None:
+        divisors = [i for i in range(1, abs(num) // 2 + 1) if abs(num) % i == 0]
+        divisors.append(abs(num))
     else:
-        divisors = [i for i in range(2, num // 2 + 1) if num % i == 0]
+        divisors = [i for i in range(2, abs(num) // 2 + 1) if abs(num) % i == 0]
+    if num < 0:
+        neg_divs = [-i for i in divisors][::-1]
+        divisors = neg_divs + divisors
     return divisors

@@ -8,3 +8,6 @@ def test_divs_without_borders():
 
 def test_divs_prime_number():
     assert divs(7) == [1, 7]
+
+def test_divs_negative():
+    assert divs(-6) == [-6, -3, -2, -1, 1, 2, 3, 6]
