@@ -5,3 +5,6 @@ def test_default():
 
 def test_unsorted():
     assert bin_search([1, 5, 3], 5) == 2
+
+def test_some():
+    assert bin_search([92, 1072, 5380, 9202, 9872, 9873], 9873) == 5

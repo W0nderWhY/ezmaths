@@ -1,7 +1,7 @@
 import ezmaths
 
 def isprime(num: int) -> bool:
-    """Checks if number is prime
+    """Checks if positive number is prime
     Args:
         num: Integer
     Returns:

@@ -1,7 +1,7 @@
 from ezmaths import gcd
 
 def lcm(a:int, b:int) -> int:
-    """Get Lowest Common Multiple of two integers
+    """Get Lowest Common Multiple of two positive integers
     Args:
         a: integer
         b: integer
