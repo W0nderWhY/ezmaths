@@ -1,7 +1,7 @@
 from ezmaths.factorise import factorise
 
 def test_default():
-    assert factorise(20) == [2, 5, 5]
+    assert factorise(50) == [2, 5, 5]
 
 def test_prime():
     assert factorise(7) == [7]

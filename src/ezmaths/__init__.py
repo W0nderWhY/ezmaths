@@ -1,3 +1,11 @@
+"""
+**Ezmaths** *is library to optimize routine things in programming. Some features from 0.1.0*:
+* *Binary search*
+* *Factorise*
+* *Dividers of number*
+* *GCD and LCM*
+"""
+
 from .divs import divs
 from .bin_search import bin_search
 from .isprime import isprime

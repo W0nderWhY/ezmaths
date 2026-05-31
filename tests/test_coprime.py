@@ -7,4 +7,4 @@ def test_ints():
     assert coprime(7, 16) == True
 
 def test_random():
-    assert coprime(92)
+    assert coprime(92, 22) == False

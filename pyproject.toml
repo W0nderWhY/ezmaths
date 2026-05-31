@@ -3,19 +3,35 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ezmaths_lib"
+name = "ezmaths"
 version = "0.1.0"
 description = "Utils to optimize routine in solving math problems"
 readme = "README.md"
 requires-python = ">=3.8"
+keywords = ["math", "binary-search", "gcd", "lcm", "algorithms", "education", "factorise"]
+
 authors = [
     { name = "Daniyar Faizov", email = "daniiarfaizov@gmail.com" }
 ]
+
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
 ]
+
+[project.urls]
+Homepage = "https://github.com/W0nderWhY/ezmaths"
+Documentation = "https://github.com/W0nderWhY/ezmaths/blob/main/README.md"
+"Bug Tracker" = "https://github.com/W0nderWhY/ezmaths/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

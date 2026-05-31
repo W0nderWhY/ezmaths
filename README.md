@@ -2,14 +2,6 @@
 
 Small library to optimize your routine in solving math problems. Includes some basic functions, which developers are sometimes lazy to write by themselves.
 
-## Installing 🚀
-
-You can install this library from PyPi using pip:
-
-```bash
-pip install ezmaths
-```
-
 ## Quick Start 💻
 
 That's how you can use this library to find divisors of number:
