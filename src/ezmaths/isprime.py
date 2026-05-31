@@ -7,7 +7,12 @@ def isprime(num: int) -> bool:
     Returns:
         Returns bool. True if number is prime, else False
     """
-    if len(ezmaths.divs(num)) == 2:
-        return True
-    else:
+    if num == 1:
         return False
+    p = 2
+    while p * p <= num:
+        if num % p == 0:
+            return False
+        else:
+            p += 1
+    return True
